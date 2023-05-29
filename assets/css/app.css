@@ -195,6 +195,7 @@ ul
     border-left: 5px solid var(--skin-color);
     bottom: 0;
     left: 0;
+    border-radius: 8px;
 
 }
 
@@ -208,6 +209,7 @@ ul
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
+    border-radius: 8px;
 }
 
 .aside .nav-toggler
@@ -352,6 +354,7 @@ h3.my-profession
     border-right: 10px solid var(--skin-color);
     right: 20px;
     bottom: -40px;
+    border-radius: 20px;
 }
 
 .home-img::before
@@ -364,6 +367,7 @@ h3.my-profession
     border-left: 10px solid var(--skin-color);
     left: 20px;
     top: -40px;
+    border-radius: 20px;
 }
 
 .home .home-img img
@@ -595,3 +599,37 @@ h3.my-profession
     text-align: justify;
     color: var(--text-black-700);
 }
+
+/* ===== Services ===== */
+.service .service-item
+{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.service .service-item .service-item-inner
+{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service .service-item .service-item-inner:hover
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.service .service-item .service-item-inner .img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
