@@ -205,9 +205,9 @@ ul
     position: absolute;
     width: 20px;
     height: 20px;
-    border-top: 5px solid var(--skin-color);
+    border-bottom: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
-    top: 0;
+    bottom: 0;
     right: 0;
     border-radius: 8px;
 }
@@ -348,12 +348,12 @@ h3.my-profession
 {
     content: '';
     position: absolute;
-    height: 80px;
+    height: 26em;
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 20px;
-    bottom: -40px;
+    top: 40px;
     border-radius: 20px;
 }
 
@@ -361,12 +361,12 @@ h3.my-profession
 {
     content: '';
     position: absolute;
-    height: 80px;
+    height: 26em;
     width: 80px;
-    border-top: 10px solid var(--skin-color);
+    border-bottom: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     left: 20px;
-    top: -40px;
+    top: 40px;
     border-radius: 20px;
 }
 

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="stylesheet" href="/assets/css/color-1.css">
+    <link rel="stylesheet" href="/assets/css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style-switcher.css">
     <title>Nails Designer</title>
 </head>
 <body>
@@ -417,9 +418,26 @@
             </section>            
             <!-- ====== Contact Sction End ===== --> 
         </div>
-        <!--  ===== Main Container End ===== -->
     </div>
     <!--  ===== Main Container End ===== -->
+    <!--  ===== Style Switcher Start ===== -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--  ===== Style Switcher End ===== -->
     <!--  ===== JS Files ===== -->
 
     <script src="/assets/js/app.js"></script>
