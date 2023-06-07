@@ -14,11 +14,8 @@
 > - [X] Theme Colors Engine
 > - [X] Day-Night Theme Engine
 
-> ### Home Screen
-> ![Capturar1](https://github.com/Giarlan/memory-game/assets/108962578/893103f3-6c9b-47b4-8c3d-86cc71ff0771)  
-
-> ### Game-Over Screen
-> ![Capturar](https://github.com/Giarlan/memory-game/assets/108962578/90ba9f81-dcb7-4497-a77f-2fbdb999a574)
+> ### Home Section
+> ![Capturar](https://github.com/Giarlan/nails-designer-website/assets/108962578/b671e540-f57d-447d-98c0-bd32c26ff44a) 
 
 > ### Prerequisites to run it
 >     You only need a browser to click on the following link and run the application.
